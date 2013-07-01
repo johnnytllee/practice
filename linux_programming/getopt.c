@@ -2,26 +2,32 @@
 #include<stdlib.h>
 #include<unistd.h>
 #include<getopt.h>
+#include<string.h>
 
-const struct option my_options_1[] = {
+struct option my_options_1[] = {
 	{"alpha", no_argument, NULL, 'a'},
-	{"bravo", no_argument, NULL, 'b'},
+	{"bravo", required_argument, NULL, 'b'},
 	{"charlie", no_argument, NULL, 'c'},
 	{NULL, 0, NULL, 0}
 };
-const char *opt1 = "abc";
+char *opt1 = "ab:c";
 
-const struct option my_options_2[] = {
+struct option my_options_2[] = {
 	{"xray", no_argument, NULL, 'x'},
 	{"yankee", no_argument, NULL, 'y'},
 	{"zulu", no_argument, NULL, 'z'},
 	{NULL, 0, NULL, 0}
 };
-const char *opt2 = "xyz";
+char *opt2 = "xyz";
 
 struct base_option {
-	const struct option *longopts;
-	const char *optstring;
+	struct option *longopts;
+	char *optstring;
+};
+
+struct my_derived_option {
+	struct base_option *_base_option;
+	int opt_c_flag;
 };
 
 int my_getopt(struct base_option *this, int pid, int argc, char *argv[])
@@ -46,11 +52,16 @@ int my_getopt(struct base_option *this, int pid, int argc, char *argv[])
 
 int main(int argc, char *argv[])
 {
-	struct base_option *my_option = NULL;
+	struct my_derived_option *my_option = NULL;
 	my_option = malloc(sizeof(*my_option));
-	my_option->longopts = my_options_1;
-	my_option->optstring = opt1;
-	my_getopt(my_option, getpid(), argc, argv);
+	memset(my_option,0,sizeof(*my_option));
+	my_option->_base_option = malloc(sizeof(*(my_option->_base_option)));
+	my_option->_base_option->longopts = my_options_1;
+	my_options_1[2].flag = &(my_option->opt_c_flag);
+	my_option->_base_option->optstring = opt1;
+	my_getopt((struct base_option*)my_option->_base_option, getpid(), argc, argv);
+	printf("my_option->opt_c_flag = %d(%c)\n",my_option->opt_c_flag, my_option->opt_c_flag);
+	free(my_option->_base_option);
 	free(my_option);
 	return(0);
 }
