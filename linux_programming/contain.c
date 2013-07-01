@@ -22,17 +22,17 @@ int print_base(struct base *pBase)
 
 int main(void)
 {
-	base *pBase = (typeof(pBase)) malloc(sizeof(base));
+	struct base *pBase = (typeof(pBase)) malloc(sizeof(*pBase));
 	pBase->first_element = 54068;
 	pBase->second_element = 'c';
 	pBase->third_element = pBase;
 
-	printf("offsetof(base[%p],1st_element[%p]) = %lu\n",pBase,&(pBase->first_element),offsetof(base,first_element));
-	printf("offsetof(base[%p],2nd_element[%p]) = %lu\n",pBase,&(pBase->second_element),offsetof(base,second_element));
-	printf("offsetof(base[%p],3rd_element[%p]) = %lu\n",pBase,&(pBase->third_element),offsetof(base,third_element));
+	printf("offsetof(base[%p],1st_element[%p]) = %lu\n",pBase,&(pBase->first_element),offsetof(struct base,first_element));
+	printf("offsetof(base[%p],2nd_element[%p]) = %lu\n",pBase,&(pBase->second_element),offsetof(struct base,second_element));
+	printf("offsetof(base[%p],3rd_element[%p]) = %lu\n",pBase,&(pBase->third_element),offsetof(struct base,third_element));
 
-	print_base(container_of(&(pBase->first_element),base,first_element));
-	print_base(container_of(&(pBase->second_element),base,second_element));
-	print_base(container_of(&(pBase->third_element),base,third_element));
+	print_base(container_of(&(pBase->first_element),struct base,first_element));
+	print_base(container_of(&(pBase->second_element),struct base,second_element));
+	print_base(container_of(&(pBase->third_element),struct base,third_element));
 	return(0);
 }
