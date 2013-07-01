@@ -1,3 +1,7 @@
+/* X86_64: ~= 127G
+ * armv7l: ~= 2.5G
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 
