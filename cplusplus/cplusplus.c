@@ -1,3 +1,7 @@
+/*
+ * __cplusplus is defined by g++.
+ */
+
 #include<stdio.h>
 
 int main(void)
