@@ -52,7 +52,18 @@ int my_getopt(struct base_option *this, int pid, int argc, char *argv[])
 
 int main(int argc, char *argv[])
 {
+	char *fake_argv[] = {"fakeargv", "-a", "argu1", "-boptarg", "--charlie", "-c"};
 	struct my_derived_option *my_option = NULL;
+	if (argc == 1) {
+		int i = 0;
+		argc = sizeof(fake_argv)/sizeof(*fake_argv);
+		argv = fake_argv;
+		printf("\nargv = ");
+		for (i = 0; i<argc; i++) {
+			printf("[%d]%s ", i, argv[i]);
+		}
+		printf("\nargc = %lu\n", sizeof(fake_argv)/sizeof(*fake_argv));
+	}
 	my_option = malloc(sizeof(*my_option));
 	memset(my_option,0,sizeof(*my_option));
 	my_option->_base_option = malloc(sizeof(*(my_option->_base_option)));
