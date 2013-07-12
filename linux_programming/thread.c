@@ -58,6 +58,38 @@ void* t3(void *arg)
 #endif
 }
 
+static pthread_key_t pkey;
+#define T4_CNT 5
+
+void* t4(void *arg)
+{
+	if (arg) {
+		struct thread_arg *targ = arg;
+		pthread_setspecific(pkey, arg);
+		LOGI("[%lu] [%s] arg = %p", pthread_self(), targ->name, arg);
+		LOGI("[%lu] [%s] pkey = %d", pthread_self(), targ->name, pkey);
+		LOGI("[%lu] [%s] pkey -> %p", pthread_self(), targ->name, pthread_getspecific(pkey));
+	}
+}
+
+void pre_t4(void)
+{
+	const char * const t4name[T4_CNT] = {"A", "B", "C", "D", "E"};
+	pthread_t t4t[T4_CNT]; 
+	struct thread_arg t4arg[T4_CNT];
+	int i = 0;
+	LOGI("");
+	pthread_key_create( &pkey, NULL);
+	srand((unsigned int)time(NULL));
+	for (i = 0; i<T4_CNT; i++) {
+		t4arg[i].name = t4name[i];
+		t4arg[i].times = rand()%10 + 1;
+		pthread_create(t4t+i, NULL, t4, t4arg+i);
+	}
+	for (i = 0; i<T4_CNT; i++)
+		pthread_join(t4t[i], NULL);
+}
+
 int main(int argc, char *argv[])
 {
 	int ret_val = 0;
@@ -99,5 +131,8 @@ int main(int argc, char *argv[])
 	ret_val = pthread_join(ptt2, &ret);
 	LOGI("joined %s return (%d)%s [%p]", ta2.name, ret_val, strerror(ret_val), ret);
 	pthread_attr_destroy (&attr);
+
+	pre_t4();
+
 	return(0);
 }
