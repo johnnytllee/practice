@@ -72,6 +72,12 @@ void* t4(void *arg)
 	}
 }
 
+void pkey_cleanup(void *arg)
+{
+	struct thread_arg *targ = arg;
+	LOGI("[%lu] [%s] arg = %p", pthread_self(), targ->name, arg);
+}
+
 void pre_t4(void)
 {
 	const char * const t4name[T4_CNT] = {"A", "B", "C", "D", "E"};
@@ -79,7 +85,7 @@ void pre_t4(void)
 	struct thread_arg t4arg[T4_CNT];
 	int i = 0;
 	LOGI("");
-	pthread_key_create( &pkey, NULL);
+	pthread_key_create( &pkey, pkey_cleanup);
 	srand((unsigned int)time(NULL));
 	for (i = 0; i<T4_CNT; i++) {
 		t4arg[i].name = t4name[i];
