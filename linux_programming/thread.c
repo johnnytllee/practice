@@ -78,6 +78,7 @@ void pkey_cleanup(void *arg)
 	LOGI("[%lu] [%s] arg = %p", pthread_self(), targ->name, arg);
 }
 
+/* Thread t4 is to demo the usage of pthread_key_t. */
 void pre_t4(void)
 {
 	const char * const t4name[T4_CNT] = {"A", "B", "C", "D", "E"};
@@ -96,7 +97,43 @@ void pre_t4(void)
 		pthread_join(t4t[i], NULL);
 }
 
-int main(int argc, char *argv[])
+void t5_cleanup(void *arg)
+{
+	struct thread_arg *targ = arg;
+	LOGI("[%lu] [%s] arg = %p", pthread_self(), targ->name, arg);
+}
+
+void* t5(void *arg)
+{
+	pthread_cleanup_push(t5_cleanup, arg);
+	
+	do {
+#if 1 
+		/* Wait to be cancelled. */
+#else
+		/* Exit myself. */
+		break;
+#endif
+		sleep(1);
+	} while(1);
+
+	pthread_cleanup_pop(1);
+}
+
+void pre_t5(void)
+{
+	pthread_t t5t;
+	int ret_val = 0;
+	struct thread_arg t5a = {"t5a", 7835};
+	pthread_create(&t5t, NULL, t5, &t5a);
+	sleep(1);
+	ret_val = pthread_cancel(t5t);
+	LOGI("pthread_cancel returns (%d)%s", ret_val, strerror(ret_val));
+	/* Process may be ended before cleanup, thus wait a moment. */
+	sleep(2);
+}
+
+void pre_t123(void)
 {
 	int ret_val = 0;
 	pthread_t ptt1a, ptt1b, ptt2, ptt3;
@@ -120,9 +157,10 @@ int main(int argc, char *argv[])
 	pthread_create(&ptt1b, &attr, t1, &ta1b);
 	pthread_create(&ptt2, NULL, t2, &ta2);
 
+#if 0
 	if (argc!=1)
 		pthread_create(&ptt3, NULL, t3, NULL);
-
+#endif
 	LOGI("Hello Main");
 	LOGI("&ta1a = %p", &ta1a);
 	LOGI("&ta1b = %p", &ta1b);
@@ -137,8 +175,13 @@ int main(int argc, char *argv[])
 	ret_val = pthread_join(ptt2, &ret);
 	LOGI("joined %s return (%d)%s [%p]", ta2.name, ret_val, strerror(ret_val), ret);
 	pthread_attr_destroy (&attr);
+}
 
-	pre_t4();
+int main(int argc, char *argv[])
+{
+	// pre_t4();
+
+	pre_t5();
 
 	return(0);
 }
