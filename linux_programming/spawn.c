@@ -8,6 +8,7 @@ int spawn(char *const argv[])
 	}
 	else {
 		LOGI("Spawn %s",argv[0]);
+		sleep(10);
 		return(0);
 	}
 }
