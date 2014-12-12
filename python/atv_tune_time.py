@@ -16,6 +16,8 @@ def main():
 	print "Frequency, Time"
 	count = 0
 	acc = 0
+	max = 0
+	min = 100
 	for line in input_file:
 		m = re.search(r"start:(\d+)", line)
 		if (m):
@@ -32,8 +34,14 @@ def main():
 					t = (60 + float(end)) - float(start)
 				acc += t
 				count += 1
+				if (t > max):
+					max = t
+				elif (t < min):
+					min = t
 				print f, ",", t
-	print "Average Time =", acc/count
+	print "Max Time =", max
+	print "Min Time =", min
+	print "Avg Time =", acc/count
 
 if __name__ == "__main__":
 	main()
