@@ -31,7 +31,7 @@ def main():
 				end = m.group(0)
 				t = float(end) - float(start)
 				if (t < 0):
-					t = (60 + float(end)) - float(start)
+					t += 60
 				acc += t
 				count += 1
 				if (t > max):
