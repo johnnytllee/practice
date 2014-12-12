@@ -1,0 +1,170 @@
+01-01 01:18:28.812 E/TPAPI_FE(  914): atv tune patameters: start:44000, end:44000, atvmode:11, surf:1
+01-01 01:18:29.996 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:30.385 E/TPAPI_FE(  914): atv tune patameters: start:44000, end:44000, atvmode:12, surf:1
+01-01 01:18:31.656 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:31.800 E/TPAPI_FE(  914): atv tune patameters: start:45500, end:45500, atvmode:12, surf:1
+01-01 01:18:33.264 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:33.396 E/TPAPI_FE(  914): atv tune patameters: start:47000, end:47000, atvmode:12, surf:1
+01-01 01:18:35.023 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:35.161 E/TPAPI_FE(  914): atv tune patameters: start:48500, end:48500, atvmode:12, surf:1
+01-01 01:18:36.562 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:36.695 E/TPAPI_FE(  914): atv tune patameters: start:50000, end:50000, atvmode:12, surf:1
+01-01 01:18:37.868 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:38.006 E/TPAPI_FE(  914): atv tune patameters: start:51500, end:51500, atvmode:12, surf:1
+01-01 01:18:39.624 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:39.776 E/TPAPI_FE(  914): atv tune patameters: start:53000, end:53000, atvmode:12, surf:1
+01-01 01:18:41.987 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:42.127 E/TPAPI_FE(  914): atv tune patameters: start:54500, end:54500, atvmode:12, surf:1
+01-01 01:18:43.582 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:43.722 E/TPAPI_FE(  914): atv tune patameters: start:56000, end:56000, atvmode:12, surf:1
+01-01 01:18:45.183 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:18:45.331 E/TPAPI_FE(  914): atv tune patameters: start:57500, end:57500, atvmode:12, surf:1
+01-01 01:18:46.418 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 2)
+01-01 01:18:46.436 E/TPAPI_FE(  914): atv tune patameters: start:59000, end:59000, atvmode:12, surf:1
+01-01 01:18:47.515 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 3)
+01-01 01:18:47.772 E/TPAPI_FE(  914): atv tune patameters: start:62000, end:62000, atvmode:12, surf:1
+01-01 01:18:48.405 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 3)
+01-01 01:18:59.007 E/TPAPI_FE(  914): atv tune patameters: start:68000, end:68000, atvmode:12, surf:1
+01-01 01:19:00.169 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:00.307 E/TPAPI_FE(  914): atv tune patameters: start:69500, end:69500, atvmode:12, surf:1
+01-01 01:19:01.695 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:01.835 E/TPAPI_FE(  914): atv tune patameters: start:71000, end:71000, atvmode:12, surf:1
+01-01 01:19:03.035 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:03.181 E/TPAPI_FE(  914): atv tune patameters: start:72500, end:72500, atvmode:12, surf:1
+01-01 01:19:04.648 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:04.786 E/TPAPI_FE(  914): atv tune patameters: start:74000, end:74000, atvmode:12, surf:1
+01-01 01:19:05.957 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:06.105 E/TPAPI_FE(  914): atv tune patameters: start:75500, end:75500, atvmode:12, surf:1
+01-01 01:19:07.272 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:07.405 E/TPAPI_FE(  914): atv tune patameters: start:77000, end:77000, atvmode:12, surf:1
+01-01 01:19:08.594 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:08.736 E/TPAPI_FE(  914): atv tune patameters: start:78500, end:78500, atvmode:12, surf:1
+01-01 01:19:09.912 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:10.055 E/TPAPI_FE(  914): atv tune patameters: start:80000, end:80000, atvmode:12, surf:1
+01-01 01:19:11.436 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:11.585 E/TPAPI_FE(  914): atv tune patameters: start:81500, end:81500, atvmode:12, surf:1
+01-01 01:19:12.742 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:12.885 E/TPAPI_FE(  914): atv tune patameters: start:83000, end:83000, atvmode:12, surf:1
+01-01 01:19:14.053 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:14.216 E/TPAPI_FE(  914): atv tune patameters: start:84500, end:84500, atvmode:12, surf:1
+01-01 01:19:15.371 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:15.511 E/TPAPI_FE(  914): atv tune patameters: start:86000, end:86000, atvmode:12, surf:1
+01-01 01:19:16.672 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:16.815 E/TPAPI_FE(  914): atv tune patameters: start:87500, end:87500, atvmode:12, surf:1
+01-01 01:19:18.287 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:18.425 E/TPAPI_FE(  914): atv tune patameters: start:89000, end:89000, atvmode:12, surf:1
+01-01 01:19:19.895 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:20.037 E/TPAPI_FE(  914): atv tune patameters: start:90500, end:90500, atvmode:12, surf:1
+01-01 01:19:22.013 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:22.151 E/TPAPI_FE(  914): atv tune patameters: start:92000, end:92000, atvmode:12, surf:1
+01-01 01:19:24.876 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:25.021 E/TPAPI_FE(  914): atv tune patameters: start:93500, end:93500, atvmode:12, surf:1
+01-01 01:19:27.727 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:27.861 E/TPAPI_FE(  914): atv tune patameters: start:95000, end:95000, atvmode:12, surf:1
+01-01 01:19:30.572 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:30.711 E/TPAPI_FE(  914): atv tune patameters: start:96500, end:96500, atvmode:12, surf:1
+01-01 01:19:33.118 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:33.260 E/TPAPI_FE(  914): atv tune patameters: start:98000, end:98000, atvmode:12, surf:1
+01-01 01:19:35.754 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:35.891 E/TPAPI_FE(  914): atv tune patameters: start:99500, end:99500, atvmode:12, surf:1
+01-01 01:19:38.652 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:38.797 E/TPAPI_FE(  914): atv tune patameters: start:101000, end:101000, atvmode:12, surf:1
+01-01 01:19:42.931 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:43.065 E/TPAPI_FE(  914): atv tune patameters: start:102500, end:102500, atvmode:12, surf:1
+01-01 01:19:46.762 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:46.900 E/TPAPI_FE(  914): atv tune patameters: start:104000, end:104000, atvmode:12, surf:1
+01-01 01:19:48.902 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:49.047 E/TPAPI_FE(  914): atv tune patameters: start:105500, end:105500, atvmode:12, surf:1
+01-01 01:19:50.746 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:50.885 E/TPAPI_FE(  914): atv tune patameters: start:107000, end:107000, atvmode:12, surf:1
+01-01 01:19:52.556 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:52.695 E/TPAPI_FE(  914): atv tune patameters: start:108500, end:108500, atvmode:12, surf:1
+01-01 01:19:54.162 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:54.306 E/TPAPI_FE(  914): atv tune patameters: start:110000, end:110000, atvmode:12, surf:1
+01-01 01:19:55.977 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:56.130 E/TPAPI_FE(  914): atv tune patameters: start:111500, end:111500, atvmode:12, surf:1
+01-01 01:19:57.506 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:57.652 E/TPAPI_FE(  914): atv tune patameters: start:113000, end:113000, atvmode:12, surf:1
+01-01 01:19:58.811 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:19:58.957 E/TPAPI_FE(  914): atv tune patameters: start:114500, end:114500, atvmode:12, surf:1
+01-01 01:20:00.344 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:00.495 E/TPAPI_FE(  914): atv tune patameters: start:116000, end:116000, atvmode:12, surf:1
+01-01 01:20:01.907 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:02.050 E/TPAPI_FE(  914): atv tune patameters: start:117500, end:117500, atvmode:12, surf:1
+01-01 01:20:03.441 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:03.606 E/TPAPI_FE(  914): atv tune patameters: start:119000, end:119000, atvmode:12, surf:1
+01-01 01:20:05.299 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:05.440 E/TPAPI_FE(  914): atv tune patameters: start:120500, end:120500, atvmode:12, surf:1
+01-01 01:20:07.141 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:07.286 E/TPAPI_FE(  914): atv tune patameters: start:122000, end:122000, atvmode:12, surf:1
+01-01 01:20:08.964 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:09.116 E/TPAPI_FE(  914): atv tune patameters: start:123500, end:123500, atvmode:12, surf:1
+01-01 01:20:10.572 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:10.706 E/TPAPI_FE(  914): atv tune patameters: start:125000, end:125000, atvmode:12, surf:1
+01-01 01:20:11.882 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:12.017 E/TPAPI_FE(  914): atv tune patameters: start:126500, end:126500, atvmode:12, surf:1
+01-01 01:20:13.984 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:14.125 E/TPAPI_FE(  914): atv tune patameters: start:128000, end:128000, atvmode:12, surf:1
+01-01 01:20:16.199 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:16.343 E/TPAPI_FE(  914): atv tune patameters: start:129500, end:129500, atvmode:12, surf:1
+01-01 01:20:17.836 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:17.993 E/TPAPI_FE(  914): atv tune patameters: start:131000, end:131000, atvmode:12, surf:1
+01-01 01:20:19.176 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:19.315 E/TPAPI_FE(  914): atv tune patameters: start:132500, end:132500, atvmode:12, surf:1
+01-01 01:20:20.491 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:20.631 E/TPAPI_FE(  914): atv tune patameters: start:134000, end:134000, atvmode:12, surf:1
+01-01 01:20:22.320 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:22.461 E/TPAPI_FE(  914): atv tune patameters: start:135500, end:135500, atvmode:12, surf:1
+01-01 01:20:24.159 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:24.296 E/TPAPI_FE(  914): atv tune patameters: start:137000, end:137000, atvmode:12, surf:1
+01-01 01:20:25.988 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:26.120 E/TPAPI_FE(  914): atv tune patameters: start:138500, end:138500, atvmode:12, surf:1
+01-01 01:20:27.307 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:27.447 E/TPAPI_FE(  914): atv tune patameters: start:140000, end:140000, atvmode:12, surf:1
+01-01 01:20:28.917 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:29.053 E/TPAPI_FE(  914): atv tune patameters: start:141500, end:141500, atvmode:12, surf:1
+01-01 01:20:30.441 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:30.585 E/TPAPI_FE(  914): atv tune patameters: start:143000, end:143000, atvmode:12, surf:1
+01-01 01:20:31.763 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:31.905 E/TPAPI_FE(  914): atv tune patameters: start:144500, end:144500, atvmode:12, surf:1
+01-01 01:20:33.103 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:33.251 E/TPAPI_FE(  914): atv tune patameters: start:146000, end:146000, atvmode:12, surf:1
+01-01 01:20:34.718 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:34.865 E/TPAPI_FE(  914): atv tune patameters: start:147500, end:147500, atvmode:12, surf:1
+01-01 01:20:36.642 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:36.786 E/TPAPI_FE(  914): atv tune patameters: start:149000, end:149000, atvmode:12, surf:1
+01-01 01:20:37.968 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:38.116 E/TPAPI_FE(  914): atv tune patameters: start:150500, end:150500, atvmode:12, surf:1
+01-01 01:20:40.039 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:40.187 E/TPAPI_FE(  914): atv tune patameters: start:152000, end:152000, atvmode:12, surf:1
+01-01 01:20:42.386 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:42.530 E/TPAPI_FE(  914): atv tune patameters: start:153500, end:153500, atvmode:12, surf:1
+01-01 01:20:44.014 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:44.155 E/TPAPI_FE(  914): atv tune patameters: start:155000, end:155000, atvmode:12, surf:1
+01-01 01:20:45.337 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:45.480 E/TPAPI_FE(  914): atv tune patameters: start:156500, end:156500, atvmode:12, surf:1
+01-01 01:20:46.666 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:46.806 E/TPAPI_FE(  914): atv tune patameters: start:158000, end:158000, atvmode:12, surf:1
+01-01 01:20:47.986 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:48.126 E/TPAPI_FE(  914): atv tune patameters: start:159500, end:159500, atvmode:12, surf:1
+01-01 01:20:49.301 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:49.445 E/TPAPI_FE(  914): atv tune patameters: start:161000, end:161000, atvmode:12, surf:1
+01-01 01:20:50.639 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:50.772 E/TPAPI_FE(  914): atv tune patameters: start:162500, end:162500, atvmode:12, surf:1
+01-01 01:20:52.182 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:52.325 E/TPAPI_FE(  914): atv tune patameters: start:164000, end:164000, atvmode:12, surf:1
+01-01 01:20:53.537 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:53.676 E/TPAPI_FE(  914): atv tune patameters: start:165500, end:165500, atvmode:12, surf:1
+01-01 01:20:54.826 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:54.960 E/TPAPI_FE(  914): atv tune patameters: start:167000, end:167000, atvmode:12, surf:1
+01-01 01:20:56.432 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:56.575 E/TPAPI_FE(  914): atv tune patameters: start:168500, end:168500, atvmode:12, surf:1
+01-01 01:20:57.757 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:57.895 E/TPAPI_FE(  914): atv tune patameters: start:170000, end:170000, atvmode:12, surf:1
+01-01 01:20:59.073 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:20:59.231 E/TPAPI_FE(  914): atv tune patameters: start:171500, end:171500, atvmode:12, surf:1
+01-01 01:21:00.414 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 0)
+01-01 01:21:00.561 E/TPAPI_FE(  914): atv tune patameters: start:173000, end:173000, atvmode:12, surf:1
+01-01 01:21:01.605 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 2)
+01-01 01:21:01.620 E/TPAPI_FE(  914): atv tune patameters: start:174500, end:174500, atvmode:12, surf:1
+01-01 01:21:02.581 E/TPAPI_FE(  914): In userspace: _NfyATVScanStatus! (2, 3)
